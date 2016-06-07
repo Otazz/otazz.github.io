@@ -11,5 +11,8 @@ $(document).ready(function() {
    });
    $('div').click(function() {
        $(this).toggle(1000);
-   }); 
+   });
+   $('#badd').click(function(){
+       $(this).append('<p>'+$('#add').val()+'</p>');
+   });
 });
