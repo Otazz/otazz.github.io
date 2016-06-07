@@ -15,5 +15,6 @@
         <div id="blue"></div>
         <div id="yellow"></div>
         <div id="green"></div>
+	<?php echo "1\n2\n3\n4"; ?>
   </body>
 </html>
