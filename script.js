@@ -17,6 +17,6 @@ $(document).ready(function() {
       $('.nl').append('<button type=button id=rem>Remove last line</button>');
    });
    $('#rem').click(function(){
-      $('.nl').last().remove;
+      $('.nl').last().remove();
    });
 });
