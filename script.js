@@ -1,15 +1,15 @@
 $(document).ready(function() {
-   $('div').mouseenter(function() {
+   $('.ani').mouseenter(function() {
        $(this).animate({
            height: '+=10px'
        });
    });
-   $('div').mouseleave(function() {
+   $('.ani').mouseleave(function() {
        $(this).animate({
            height: '-=10px'
        }); 
    });
-   $('div').click(function() {
+   $('.ani').click(function() {
        $(this).toggle(1000);
    });
    $('#badd').click(function(){
