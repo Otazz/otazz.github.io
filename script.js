@@ -13,6 +13,6 @@ $(document).ready(function() {
        $(this).toggle(1000);
    });
    $('#badd').click(function(){
-       $(this).append('<p>'+$('#add').val()+'</p>');
+       $(this).append('<p>'+$('input[name="add"]').val()+'</p>');
    });
 });
