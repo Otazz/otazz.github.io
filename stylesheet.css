@@ -35,3 +35,28 @@ div {
     background-color:yellow;
     width:200px;
 }
+
+.top-bar {
+    padding: .5rem
+}
+.top-bar::after,
+.top-bar::before {
+    content: ' ';
+    display: table
+}
+.top-bar,
+.top-bar ul {
+    background-color: #eee
+}
+.top-bar input {
+    width: 200px;
+    margin-right: 1rem
+}
+@media screen and (min-width: 40em) {
+    .top-bar-left {
+        float: left
+    }
+    .top-bar-right {
+        float: right
+    }
+}
