@@ -1,0 +1,62 @@
+div {
+    height:100px;
+    width:100px;
+    display: inline-block;
+}
+
+#red {
+    background-color:#FF0000;
+}
+
+#blue {
+    background-color:#0000FF;
+}
+
+#yellow {
+    background-color:#E2BE22;
+}
+
+#green {
+    background-color:#008800;
+}
+.page-title{
+    text-align:center;
+    font-family:verdana;
+}
+.text{
+    font-family:verdana;
+    color:red;
+}
+.t1{
+    background-color:silver;
+    width:200px;
+}
+.projects{
+    background-color:yellow;
+    width:200px;
+}
+
+.top-bar {
+    padding: .5rem
+}
+.top-bar::after,
+.top-bar::before {
+    content: ' ';
+    display: table
+}
+.top-bar,
+.top-bar ul {
+    background-color: #eee
+}
+.top-bar input {
+    width: 200px;
+    margin-right: 1rem
+}
+@media screen and (min-width: 40em) {
+    .top-bar-left {
+        float: left
+    }
+    .top-bar-right {
+        float: right
+    }
+}
